@@ -6,6 +6,8 @@ const App = () => {
 
   const handleSubmit = async (event) => {
     console.log("for testing");
+
+    
     // We don't want to let default form submission happen here,
     // which would refresh the page.
     event.preventDefault();
