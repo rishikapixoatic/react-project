@@ -5,7 +5,7 @@ const App = () => {
   const elements = useElements();
 
   const handleSubmit = async (event) => {
-    console.log("for testing")
+    console.log("for testing");
     // We don't want to let default form submission happen here,
     // which would refresh the page.
     event.preventDefault();
